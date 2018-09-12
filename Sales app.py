@@ -73,7 +73,7 @@ def bestHashTime(hashRate,listOfCrypto,algo):
             #print(profitPerDay)
             if profitPerDay > profit:
                 profit = profitPerDay
-                winningCrypto = i["Name"]+", "+i["Algorithm"]+", "+str(profit)
+                winningCrypto = i["Name"]+", "+i["Algorithm"]+", Profit in BTC per day:"+str(profit)
     print (winningCrypto)
     return (winningCrypto)
 
